@@ -29,3 +29,13 @@ To clear your personal access token, right-click the extension icon, select Opti
 * Add the amount.
 * Hit Enter.
   - The fields will reset if the transaction was successfully created
+* New transactions will be missing a Payee & Category. 
+  - YNAB will will prompted you to provide these details when you next visit the app.
+
+
+### Future Features
+* Add Payee field
+  - Select from list of Payees. 
+  - Autocomplete while the user types. 
+  - Create New Payee if none already exists.
+* After selecting an Account, this selection remains as the default selected option until it is changed.
