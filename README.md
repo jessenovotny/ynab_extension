@@ -9,23 +9,23 @@ This extension is for development/personal use only as it requires a YNAB person
 To clear your personal access token, right-click the extension icon, select Options, and then click the Logout button.
 
 ### Installation
-1. clone this repo: `git@github.com:jessenovotny/ynab_extension.git`
-2. Open Chrome web browser and navigate to chrome://extensions
-3. Toggle on 'Developer mode' in the top right corner
-4. Click the 'Load unpacked' button and select the folder 'ynab_extension'
+1. Clone this repository: `git@github.com:jessenovotny/ynab_extension.git`
+2. Open Chrome web browser and navigate to chrome://extensions.
+3. Toggle 'Developer mode' on.
+4. Click the 'Load unpacked' button and select the 'ynab_extension' folder.
 5. The YNAB Quick Add extension is now installed.
 
 ### Setup
-1. Click the YNAB extension icon
-2. Enter your Personal Access token and hit Enter
-  - Clicking the ? will take you to https:ave//app.youneedabudget.com/settings/developer where you can generate a new token.
-3. Select a budget and hit Enter
-  - If you only have one budget, this step is skipped automatically
-  - To change budgets, you must logout and start over.
+1. Click the YNAB extension icon.
+2. Enter your Personal Access token and hit Enter.
+  1. Clicking the ? will take you to https:ave//app.youneedabudget.com/settings/developer where you can generate a new token.
+3. Select a budget and hit Enter.
+  1. If you only have one budget, this step is skipped automatically.
+  2. To change budgets, you must logout and start over.
 
 ### Adding Transactions
-1. Select an Account from the dropdown
-2. Add a memo
-3. Add the amount
-4. Hit Enter
+1. Select an Account from the dropdown.
+2. Add a memo.
+3. Add the amount.
+4. Hit Enter.
  - The fields will reset if the transaction was successfully created
