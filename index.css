@@ -1,0 +1,13 @@
+html, body {
+  min-width: 500px;
+  max-width: 800px;
+  padding: 5px 10px;
+}
+
+.input-group {
+  margin-bottom: 0px!important;
+}
+
+.col-3, .col-4, .col-5 {
+  padding: 0 5px;
+}

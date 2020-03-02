@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="vendor/jquery-3.3.1.min.js"></script>
+  <script src="vendor/popper.min.js"></script>
+  <script src="vendor/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="vendor/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <title>YNAB Quick Log</title>
+</head>
+<body>
+
+  <!-- API KEY INPUT -->
+  <div class="row" id="api-input-container">
+    <div class="input-group mb-3">
+      <input id="api-input" type="text" class="form-control" placeholder="YNAB API Key" aria-label="YNAB API Key" aria-describedby="basic-addon">
+      <div class="input-group-append">
+        <a href="https://app.youneedabudget.com/settings/developer" target="_blank">
+          <span class="input-group-text" id="basic-addon">?</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- BUDGET SELECTION -->
+  <div class="row" id="budget-select-container" style="display: none;">
+    <div class="input-group" >
+      <select class="form-control" id="budget-select">
+        <option>Select a Budget</option>
+      </select>
+    </div>
+  </div>
+
+
+  <!-- TRANSACTION INPUT -->
+  <div class="row" id="log-input-container" style="display: none;">
+    <div class="col-4">
+      <div class="input-group" >
+        <select class="form-control" id="log-account">
+          <option>Account:</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="col-5">
+      <div class="input-group" >
+        <input type="text" class="form-control" id="log-memo" placeholder="Transaction Memo">
+      </div>
+    </div>
+
+    <div class="col-3">
+      <div class="input-group" >
+        <div class="input-group-prepend">
+          <div class="input-group-text">$</div>
+        </div>
+        <input type="text" class="form-control" id="log-amount">
+      </div>
+    </div>
+  </div>
+<script type="text/javascript" src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+{
+  "name": "YNAB Quick Log",
+  "version": "0.1",
+  "manifest_version": 2,
+  "permissions": ["storage"],
+  "browser_action": {
+    "default_icon": "images/ynab-icon32.png",
+    "default_popup": "index.html",
+    "default_title": "YNAB Transaction Logger"
+  },
+  "options_page": "options.html",
+  "icons": {
+    "16": "images/ynab-icon16.png",
+    "24": "images/ynab-icon24.png",
+    "32": "images/ynab-icon32.png",
+    "48": "images/ynab-icon48.png"
+  }
+}
