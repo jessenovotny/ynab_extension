@@ -39,3 +39,4 @@ To clear your personal access token, right-click the extension icon, select Opti
   - Autocomplete while the user types. 
   - Create New Payee if none already exists.
 * After selecting an Account, this selection remains as the default selected option until it is changed.
+* Signin w/ Oauth so that this plugin can be officially published to the full library of Chrome extensions.
