@@ -117,7 +117,7 @@ function clearInputs() {
 
 function parseAmount() {
   var currency = $("#log-amount").val()
-  var cents = Number(currency.replace(/[^0-9.-]+/g,"")) * 1000
+  var cents = Number(currency.replace(/[^0-9.-]+/g,"")) * -1000
   return cents !== 0 ? cents : null
 }
 
