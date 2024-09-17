@@ -4,7 +4,7 @@
 This extension allows you to log transactions from your browser without having to open the YNAB web or mobile apps.
 
 ### Disclaimer
-This extension is for development/personal use only as it requires a YNAB personal access token for your YNAB account. This token is cached in your Chrome account and nowhere else. This application is not authorized for distribution. Asking YNAB users to provide their personal access token does not comply with their YNAB's terms of use.
+This extension is for development/personal use only as it requires a YNAB personal access token for your YNAB account. This token is cached in your Chrome account and nowhere else. This application is not authorized for distribution. Asking YNAB users to provide their personal access token does not comply with YNAB's terms of use.
 
 To clear your personal access token, right-click the extension icon, select Options, and then click the Logout button.
 
